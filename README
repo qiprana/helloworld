@@ -1,1 +1,43 @@
-practice programs
+print "Hello world program\n"
+
+a= 100
+var = "hello world"
+
+print(a,var)
+
+'''
+Variables and type conversions
+'''
+a = 10
+b = 20.0
+print (float(a),int(b))
+
+#DATATYPES
+#arrays, lists, tuples, strings, dictionaties ( key value pairs)
+#lists can be updated, while tuples cannot. Tuples are faster and used only 
+#for iterations. lists are inclosed in [] and tuples in ()
+arrayList = ["ego","self","being"] # mutable
+Arraytuple = ("you","me","mine") #immutable
+#array.append, len(array), arrayList + ["hello"] (concatination) , slicing arrayList[0:1], reverse list arrayList[::-1]
+# repeat 3 times arraytuple * 3
+#strings
+
+'''
+sets - enclosed in {} - unorderded collection of unique objects
+union, intersection
+'''
+
+#OPERATIONS
+# is, is not, bitwise, etc
+
+#IF CONDITION
+x = 10
+y =20
+if x>y:
+	print "x is > than y"
+elif x <y:
+	print "x is < than y"
+else :
+	print "x n y are equal"
+
+#FOR LOOP
